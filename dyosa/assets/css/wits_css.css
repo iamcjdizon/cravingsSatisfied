@@ -1,0 +1,124 @@
+a {
+  color: #337ab7;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: auto;
+}
+
+/* -- Login CSS --*/
+#page-signin-bg img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+#page-signin-bg img.bg {	
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.signin-container {
+    display: table;
+    margin: 80px auto;
+    width: 650px;
+    table-layout: fixed;
+    border-radius: 2px;
+    position: relative;
+    z-index: 999;
+    background: #fff;
+    border: #999 1px solid thin;
+}
+
+.signin-info {
+    background: #1d89cf;
+    background: rgba(29,137,207,.8);
+    display: table-cell;
+    padding: 30px;
+    text-align: left;
+    vertical-align: top;
+    width: 40%;
+    overflow: hidden;
+}
+
+.signin-info .slogan {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.signin-info ul li {
+    list-style: none;
+    padding: 7px 0;
+    color: #eee;
+    margin-left: -40px;
+}
+
+.signin-form {
+    display: table-cell;
+    vertical-align: top;
+    width: 60%;
+    padding: 30px;
+    position: relative;
+}
+
+.signin-text {
+    color: #777;
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.signin-text span {
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+.input-icon {
+    margin-bottom:10px;
+}
+
+a.forgot-password {
+    border-bottom: 1px dashed #bbb;
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 10px;
+    padding-bottom: 1px;
+}
+
+a:hover.forgot-password {
+  color:#666;
+}
+
+a:hover.slogan {
+  color:#fff;
+  font-weight: strong;
+}
+
+/* -- Others --*/
+table tbody tr.even.selected, table tbody tr.odd.selected { background: #acbad5; }
+table.dataTable.select tbody tr,
+table.dataTable thead th:first-child {
+  cursor: pointer;
+}

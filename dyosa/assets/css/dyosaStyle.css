@@ -1,0 +1,68 @@
+.for-header{background: #addcc9;}
+
+.logo-header
+{
+	width: 500px;
+	height: 400px;
+}
+/*#color-seven{background: #FF7c84;}
+
+#color-five{background: #FF9999;}
+
+#color-two{background: #FFDAB9;}
+
+#color-one{background: #DCEDC2;}
+
+#color-three{background: #FFD3B5;}
+
+#color-four{background: #FFAAA6;}
+
+#color-six{background: #FF8C94;}*/
+
+#color-one{background: #FF9999;}
+#color-two{background: #addcc9;}
+#color-three{background: #ffffff;}
+
+.navbar-inverse
+{
+	width: 100%;
+	z-index: 100;
+}
+
+.dev-pic
+{
+	width: 300px;
+}
+
+.for-feedback
+{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.feeds-name
+{
+	font-size: 25px;
+	font-style: bold;
+}
+
+.sceenshot
+{
+	width: 200px;
+}
+
+.dev-info
+{
+	font-size: 20px;
+	font-style: bold;
+}
+
+.dev-name
+{
+	font-size: 30px;
+}
+
+.contact-pic
+{
+	height: 50px;
+}
