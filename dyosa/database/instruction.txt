@@ -1,0 +1,4 @@
+C:\xampp\mysql\data
+copy the whole folder to the specified path!
+
+or import microsoft sql server query file in phpmyadmin.
